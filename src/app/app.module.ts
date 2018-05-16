@@ -1,3 +1,4 @@
+import { AppRouter } from './app.router';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -8,6 +9,7 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
+    AppRouter,
     BrowserModule
   ],
   providers: [],
